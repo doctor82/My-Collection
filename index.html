@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <title>Shiva's Collections</title>
-    <link rel="stylesheet" href="stye.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-
 <body>
-<section id="app">
- <h1>App</h1>
-    <div class="line"></div>
-    <span>
-    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/5wL6IgyOdzJ58c4FmhEtFj2KAPMCbpww9p5OcHdyAu0/embed"></iframe>
-    </span>
-    
-    <span>
-    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/Givw58KZZlv__F_9yMJYJyEpCfZVpQ71DvHUr3Bh-FY/embed"></iframe>
-    </span>
-    
+
+<div class="container">
+
+    <section id="app">
+        <h1>Apps</h1>
+        <div class="line"></div>
+        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe>
+        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
     </section>
-    <section id="games">
-    <h1>Game's</h1>
-    <div class="line"></div>
-    <a href="https://studio.code.org/projects/spritelab/4Nv_rPmTR49TpTUVZUxlonWruI2tD1zDXR9d67X8bJg" target="_blank"><img src="thumbnail.png"></a>
-        <a href="https://studio.code.org/projects/spritelab/N2jOmBRCHWUW8YLC83pUgLlm_G3HepQcAG9YRaVS_hE" target="_blank"><img src="thumbnail%20(1).png"></a>
-    </section>
-    <section id="chatbot">
-    <h1>Chatbots</h1>
-    <div class="line"></div>
-    <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/52f89a98-a51e-4428-8769-a60258d93a75"> </iframe>
-    </section>
-    
+
+<!--
+Start your code from here
+-->
+<h2> Click on the game to explore</h2>
+<h5> These games are built using game lab click on the game to preview.</h5>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner">
+<div class="item active">
+
+ <center>
+<a href="https://studio.code.org/projects/spritelab/N2jOmBRCHWUW8YLC83pUgLlm_G3HepQcAG9YRaVS_hE" target="_blank"><img src="Winne_Pooh.png" class="img-responsive"></a>
+    <div class="carousel-content">
+     <p>Winnie The Pooh</p>
+     </div>
+     
+</center>   
+    </div>
+    <div class="item">
+    <center>
+    <a href="https://studio.code.org/projects/spritelab/ytmS7NE3bxz-A3vgDZWuwExYPFLexJpMoqLSuBJ29qg" target="_blank"><img src="Car_game.png" class="img-responsive"></a>
+        <div class="carousel-content">
+        <p> Car Game</p>
+        </div>
+    </center>
+    </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
+</div>
+
 </body>
 </html>
